@@ -3,7 +3,7 @@ Capstone main goal is to show if a product is trending through analysis of both 
 
 ## Exploratory Data Analysis
 
-### ** Prepocessing, Cleaning and EDA ** 
+### Prepocessing, Cleaning and EDA 
 - [] Dealing with missing values, cleaning up columns 
 - [] categorising metadata into categories
 - [] Joining metadata to review data

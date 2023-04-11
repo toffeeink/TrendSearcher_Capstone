@@ -1,15 +1,41 @@
-# Objective: 
-Capstone main goal is to show if a product is trending through analysis of both review and meta data using JSON files with Amazon data set. 
+###### READ ME PRODUCT TREND ANALYSIS #####
 
-## Exploratory Data Analysis
+There are two 2018 Amazon datasets required for this project. The data and pickle files to load the models can be accessed here at: https://drive.google.com/drive/folders/1anwYjf8c_58Z6Jg5d5cV_x5CRUEuGQH0?usp=sharing
 
-### Prepocessing, Cleaning and EDA 
-- [] Dealing with missing values, cleaning up columns 
-- [] categorising metadata into categories
-- [] Joining metadata to review data
-- [] Simple data analysis of number of products, different categories needed. 
-- [] Visualising data by product, for each product having a key-value pair for each product compiling reviews, ratings, etc. 
-- [] creating value counts of other recommended products. 
+This project contains 3 notebooks: 
 
+##### Initial Exploratory Analysis & Cleaning #####
 
+- Introduction to Project
+- Product Data Cleaning
+- Exploration of Review Dataset
+- Initial Data Analysis
 
+##### Preprocessing & Feature Engineering #####
+
+- Feature Engineering 
+- Text Evaluation]
+
+##### Modelling #####
+
+- Loading Finalized Data
+- Modelling
+- Model Evaluation on Random Forest and XGBoost models
+- Final Thoughts
+
+To install the environment use the requirements.txt file and the following code:
+```
+conda create --name trendsearcher --file requirements.txt
+conda activate trendsearcher
+
+```
+
+References
+
+Original Dataset: https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/
+
+Stats on the cosmetics industry: https://glginsights.com/articles/the-6-biggest-issues-facing-the-532-billion-beauty-industry/
+
+Statista stats: https://www.statista.com/markets/415/topic/467/cosmetics-personal-care/#statistic3)
+
+Amazon title reserch: https://www.wordstream.com/blog/ws/2018/10/23/amazon-keyword-research
